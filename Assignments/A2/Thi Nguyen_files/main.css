@@ -1,0 +1,184 @@
+a { color: inherit; }
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+h2{
+    margin: 10px 0 30px 0;
+    letter-spacing: 8px;
+    color: #111;
+}
+h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #111;
+}
+.container {
+    padding: 80px 120px;
+}
+
+.bg-1 {
+    background: aliceblue;
+}
+.bg-1 a {
+    color: cornflowerblue;
+}
+/*.bg-1 h2{*/
+    /*margin: 10px 0 30px 0;*/
+    /*letter-spacing: 5px;*/
+    /*font-size: 20px;*/
+    /*color: navy;*/
+/*}*/
+.bg-1 h3 {color: navy;}
+.bg-1 h2 {color: navy;}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+.sendbtn {
+    padding: 10px 20px;
+    border: 2px solid navy;
+    background-color: navy;
+    border-radius: 8px;
+    color: aliceblue;
+    transition: .2s;
+}
+.sendbtn:hover, .sendbtn:focus {
+    border: 2px solid navy;
+    border-radius: 8px;
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+.nav-tabs li a {
+    /*color: #777;*/
+    color: cornflowerblue;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    /*background-color: #2d2d30;*/
+    background-color: navy;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    /*color: #d5d5d5 !important;*/
+    color: aliceblue !important;
+}
+.navbar-nav li a:hover {
+    /*color: #fff !important;*/
+    color: cornflowerblue !important;
+}
+.navbar-nav li.active a {
+    color: cornflowerblue !important;
+    background-color: aliceblue !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: navy;
+    background-color: navy !important;
+}
+.dropdown-menu li a {
+    color: cornflowerblue !important;
+}
+.dropdown-menu li a:hover {
+    background-color: aliceblue !important;
+}
+footer {
+    background-color: navy;
+    color: aliceblue;
+    padding: 10px;
+}
+footer a {
+    color: aliceblue;
+}
+footer a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
+
+.css-typing
+{
+    font-family: "Courier";
+    font-size: 20px;
+    width: 50em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 3s steps(50, end);
+}
+
+#cursor{
+    animation: blink 1s infinite;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+/* Zoom on project images when hover. Adopted from https://codepen.io/wifeo/pen/qzwkb */
+.projectImage
+{
+    display:inline-block;
+    border:0;
+    width:500px;
+    height:300px;
+    position: relative;
+    border-radius: 10px;
+    border-style: solid;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+.projectImage:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
